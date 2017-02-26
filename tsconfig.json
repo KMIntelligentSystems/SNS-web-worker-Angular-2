@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es5","es6", "dom"],
+    "mapRoot": "./",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "build/app",
+    "sourceMap": true,
+    "target": "es6",
+    "noLib": false,
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+      "jasmine"
+    ]
+  }
+}
